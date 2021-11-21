@@ -20,7 +20,7 @@ Download the required modules (type all of that inside cmd):
 • pip install colorama  
 or if you want to skip all of that just go to the folder in cmd and use "pip install -r requests.txt"
 
-# What Do I Do Now?
+# What Do I Do Now? SETUP
 After you have installed everything you will need to change these lines:  
 ```
 webhook = "" # Your discord webhook url
