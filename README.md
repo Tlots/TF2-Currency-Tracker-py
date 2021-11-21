@@ -1,6 +1,13 @@
 # TF2-Currency-Tracker-py
 This program tracks changes in your tf2 keys / metal And sends the changes to your discord server using discord-webhook.
 
+What you will need:
+• requests
+• discord-webhook
+• colorama
+or just use "pip install -r requests.txt"
+
+
 Common Errors:
 Steam API 503 HTTP Code - This error happens because the web server is currently unable to handle the HTTP request due to a temporary overloading or maintenance of the server.
 Webhook sends separate messages about the same trade 
