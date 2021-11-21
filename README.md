@@ -9,16 +9,21 @@ Basically this code tracks changes in your tf2 keys / metal using requests libra
 
 
 # What you will need:  
-Python 3.9+ (Add python to PATH)  
+Python 3.9+ (Add python to PATH)
+Download the repository as zip
 type all of that inside cmd:  
 • pip install requests  
 • pip install discord-webhook  
 • pip install colorama  
 or if you want to skip all of that just go to the folder in cmd and use "pip install -r requests.txt"
 
-# What to change in the code
-
-
+# What to do 101
+After you installed everything
+```
+webhook = "" # Your discord webhook url
+apiKey = "" # Your steam api key
+steamID = "" # Your Steam64 ID
+```
 
 # Common Errors:  
 • Steam API 503 HTTP Code - This error happens because the web server is currently unable to handle the HTTP request due to a temporary overloading or maintenance of the server.  
