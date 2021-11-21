@@ -2,9 +2,11 @@
 Track your keys / ref all in your discord server!  
 Basically this code tracks changes in your tf2 keys / metal using requests library and steam api then sends the changes to your discord server using python and discord-webhook module.
 
+
 # PREVIEW:
 ![image](https://user-images.githubusercontent.com/51534102/142774711-89e6e486-39bb-4c5e-8562-e2ae00ae4a10.png)
 ![image](https://user-images.githubusercontent.com/51534102/142774257-051fe165-7d1d-45d4-b3b0-b16e257e4b44.png)
+
 
 
 
@@ -20,14 +22,14 @@ or if you want to skip all of that just go to the folder in cmd and use "pip ins
 
 # What Do I Do Now?
 After you have installed everything you will need to change these lines:  
-• How to get discord webhook url: create a discord server -> go to the channel settings -> integrations -> view webhooks -> new webhook -> copy webhook url  
-• How to get steam api key: Go here: https://steamcommunity.com/dev/apikey -> what I wrote in the domain name is: "127.0.0.1" and it worked  
-• How to get steam64 ID: Go to steam id finder: https://steamid.xyz and put your steam url there  
 ```
 webhook = "" # Your discord webhook url
 apiKey = "" # Your steam api key
 steamID = "" # Your Steam64 ID
 ```
+• How to get discord webhook url: create a discord server -> go to the channel settings -> integrations -> view webhooks -> new webhook -> copy webhook url  
+• How to get steam api key: Go here: https://steamcommunity.com/dev/apikey -> what I wrote in the domain name is: "127.0.0.1" and it worked  
+• How to get steam64 ID: Go to steam id finder: https://steamid.xyz and put your steam url there  
 
 **EXAMPLE:**
 ```
@@ -36,6 +38,9 @@ apiKey = "4D5FS7FA497GAS289YG89A7T" # Your steam api key
 steamID = "76561198285260753" # Your Steam64 ID
 ```
 Now save the it and double click it (double click tracker.py)
+
+**Common sense: It will send the changes work as long as you're running the program**
+
 
 
 # Common Errors:  
