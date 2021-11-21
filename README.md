@@ -45,8 +45,8 @@ Now save the it and double click it (double click tracker.py)
 
 
 
-# Common Errors:  
-• Steam API 503 HTTP Code - This error happens because the web server is currently unable to handle the HTTP request due to a temporary overloading or maintenance of the server.  
+# Known Errors:  
+• **Pretty common one**: Steam API 503 HTTP Code - This error happens because the web server is currently unable to handle the HTTP request due to a temporary overloading or maintenance of the server.  
 
 • Webhook sends separate messages about the same trade (I might fix this later):       
 ![image](https://user-images.githubusercontent.com/51534102/142773946-7f16bbd0-ae57-45c6-84ba-65863d844301.png)  
