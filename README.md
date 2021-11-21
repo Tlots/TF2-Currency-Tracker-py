@@ -1,6 +1,6 @@
 # TF2-Currency-Tracker-py
 Track your keys / ref all in your discord server!  
-Basically this code tracks changes in your tf2 keys / metal using requests library and steam api then sends the changes to your discord server using python and discord-webhook module.
+Basically this code tracks changes that are made in your tf2 keys / metal using requests library and steam api then sends the changes to your discord server using python and discord-webhook module.
 
 
 # PREVIEW:
