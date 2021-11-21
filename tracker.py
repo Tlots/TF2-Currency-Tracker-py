@@ -71,7 +71,7 @@ while True:
 
                                 embed = DiscordEmbed(title=f'{key_count}K | {ref_float_count}R', color='0F5D45')
                                 embed.set_author(name=f'Money tracker for user: {name}')
-                                embed.add_embed_field(name='​ ', value=f'```Keys: {key_count_temp} ---> {key_count} \n{ref_float_count_temp} ---> {ref_float_count}```')
+                                embed.add_embed_field(name='​ ', value=f'```Keys: {key_count_temp} ---> {key_count} \nRef: {ref_float_count_temp} ---> {ref_float_count}```')
                                 embed.add_embed_field(name='​ ', value=f'```{key_difference} \n{ref_difference}```')
                                 webhook_4embed.add_embed(embed)
                                 webhook_4embed.execute(remove_embeds=True)
