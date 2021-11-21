@@ -28,8 +28,10 @@ apiKey = "" # Your steam api key
 steamID = "" # Your Steam64 ID
 ```
 • How to get discord webhook url: create a discord server -> go to the channel settings -> integrations -> view webhooks -> new webhook -> copy webhook url  
+
 • How to get steam api key: Go here: https://steamcommunity.com/dev/apikey -> what I wrote in the domain name is: "127.0.0.1" and it worked  
-• How to get steam64 ID: Go to steam id finder: https://steamid.xyz and put your steam url there  
+
+• How to get steam64 ID: Go to steam id finder: https://steamid.xyz and put your steam url profile there  
 
 **EXAMPLE:**
 ```
