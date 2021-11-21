@@ -9,9 +9,10 @@ Basically this code tracks changes in your tf2 keys / metal using requests libra
 
 
 # What you will need:  
-Python 3.9+ (Add python to PATH)
-Download the repository as zip
-type all of that inside cmd:  
+• Python 3.9+ (Add python to PATH)  
+• Download the repository as zip  
+![image](https://user-images.githubusercontent.com/51534102/142775472-13bc4769-ff19-4e26-8212-43377b74e200.png)  
+Download the required modules (type all of that inside cmd):  
 • pip install requests  
 • pip install discord-webhook  
 • pip install colorama  
