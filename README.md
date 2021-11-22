@@ -18,7 +18,7 @@ Download the required modules (type all of that inside cmd):
 • pip install requests  
 • pip install discord-webhook  
 • pip install colorama  
-or if you want to skip all of that just go to the folder in cmd and use "pip install -r requests.txt"
+or if you want to skip all of that just go to the folder in cmd and use "pip install -r requirements.txt"
 
 # What Do I Do Now? SETUP
 After you have installed everything you will need to change these lines:  
