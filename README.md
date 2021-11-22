@@ -21,7 +21,7 @@ Download the required modules (type all of that inside cmd):
 or if you want to skip all of that just go to the folder in cmd and use "pip install -r requirements.txt"
 
 # What Do I Do Now? SETUP
-After you have installed everything you will need to change these lines:  
+After you have installed everything you will need to change these lines (Open the py file with text editor):  
 ```
 webhook = "" # Your discord webhook url
 apiKey = "" # Your steam api key
