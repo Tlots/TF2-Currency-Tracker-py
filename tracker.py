@@ -15,7 +15,7 @@ steamID = "" # Your Steam64 ID
 webhook_4embed = DiscordWebhook(url=webhook, username="Tracker") # defining the embed for discord
 key_count_temp, ref_count_temp, send_message, steam_error_tracker = 0,0, False, 0 # more variable defining
 
-def SteamAPIError(): # checking if steam api is OK
+def SteamAPIError(): # checking for any errors in the steam api
     global steam_error_tracker
     print(f"{colorama.Fore.RED}\n[Error]{reset_color_colorama} Steam API status code: {r.status_code}")
     steam_error_tracker += 1
