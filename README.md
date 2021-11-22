@@ -41,7 +41,7 @@ steamID = "76561198285260753" # Your Steam64 ID
 ```
 Now save the it and double click it (double click tracker.py)
 
-**Common sense: It will send the changes work as long as you're running the program**
+**Common sense: The program will work as long as you're running it**
 
 
 
