@@ -38,8 +38,6 @@ while True:
             print(f'{colorama.Fore.YELLOW}​ \nSteamID: {steamID} \nGetting Data For User "{name}"')
 
             while True: # main loop
-                r = requests.get(f"http://api.steampowered.com/IEconItems_440/GetPlayerItems/v0001/?key={apiKey}&steamid={steamID}")
-
                 if r.status_code == 200: # if the site code is OK then proceed
                     r_json = r.json() # converting the site to json file
                     if r_json["result"]["status"] == 1: # if the status code is 1 then proceed
