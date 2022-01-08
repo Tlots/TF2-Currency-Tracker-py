@@ -21,7 +21,9 @@ def SteamAPIError(): # checking for any errors in the steam api
     steam_error_tracker += 1
     if steam_error_tracker > 30: # if we get more than 30 steam api errors then send message to discord saying something is wrong
         DiscordWebhook(url= webhook, content= f"[Error] Steam API error. Trying again (Try number: {steam_error_tracker})").execute()
-    sleep(5)
+        sleep(15)
+    else:
+        sleep(5)
 print("Made by Tlots \nIf you have any problems Contact me\nDiscord: Tlots#6947\nor report the issue at github: https://github.com/Tlots/TF2-Currency-Tracker-py/issues")
 
 # main
