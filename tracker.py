@@ -29,6 +29,7 @@ print("Made by Tlots \nIf you have any problems Contact me\nDiscord: Tlots#6947\
 # main
 while True:
     r = requests.get(f"http://api.steampowered.com/IEconItems_440/GetPlayerItems/v0001/?key={apiKey}&steamid={steamID}") # getting the backpack of a user
+
     if r.status_code == 200: # if http code is 200 then proceed
         if r.json()["result"]["status"] == 8 or r.json()["result"]["status"] == 18: # checking if steamid exist
             print(f"{colorama.Fore.RED}[Error]{reset_color_colorama} Invalid SteamID")
@@ -38,6 +39,7 @@ while True:
             print(f'{colorama.Fore.YELLOW}​ \nSteamID: {steamID} \nGetting Data For User "{name}"')
 
             while True: # main loop
+                r = requests.get(f"http://api.steampowered.com/IEconItems_440/GetPlayerItems/v0001/?key={apiKey}&steamid={steamID}")
                 if r.status_code == 200: # if the site code is OK then proceed
                     r_json = r.json() # converting the site to json file
                     if r_json["result"]["status"] == 1: # if the status code is 1 then proceed
