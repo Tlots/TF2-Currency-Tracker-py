@@ -39,7 +39,7 @@ webhook = "https://discord.com/api/webhooks/91205715274891/sC2QoRhAeKKZhBPtFiRCg
 apiKey = "4D5FS7FA497GAS289YG89A7T" # Your steam api key
 steamID = "76561198285260753" # Your Steam64 ID
 ```
-Now save the it and double click it (double click tracker.py)
+Now save the file and double click it (double click tracker.py)
 
 **Common sense: The program will work as long as you're running it**  
 **To run the code consistently you can use https://pythonanywhere.com**
